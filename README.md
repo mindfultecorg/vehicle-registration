@@ -5,7 +5,10 @@
 Create a simple Maven-based project with [archetype](https://maven.apache.org/guides/introduction/introduction-to-archetypes.html) `maven-archetype-simple`
 
 ```bash
-$> mvn archetype:generate -DgroupId=org.mindfultec.training -DartifactId=vehicle-registration -DarchetypeArtifactId=maven-archetype-simple \
+$> mvn archetype:generate \
+-DgroupId=org.mindfultec.training \
+-DartifactId=vehicle-registration \
+-DarchetypeArtifactId=maven-archetype-simple \
 -DarchetypeVersion=1.4 -DinteractiveMode=false
 ```
 
